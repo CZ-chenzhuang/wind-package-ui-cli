@@ -1,10 +1,9 @@
 {
-  "name": "wind-cli",
+  "name": "wind-script",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "chenzhuang <chenzhuang@xiaoshouyi.com>",
   "homepage": "",
-  "license": "ISC",
+  "private": false,
   "main": "lib/wind-cli.js",
   "directories": {
     "lib": "lib",
@@ -13,11 +12,9 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
-  },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "pub": "npm publish --registry https://registry.npmjs.org/"
   },
   "bin": "scripts/index.js",
   "dependencies": {
