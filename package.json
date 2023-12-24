@@ -10,6 +10,6 @@
   "scripts": {
     "build": "lerna exec --scope wind-test -- yarn build",
     "start": "lerna exec --scope wind-test -- yarn start",
-    "pub": "lerna exec --scope wind-script -- yarn pub"
+    "pub": "lerna exec --scope wind-ui-cli -- yarn pub"
   }
 }
