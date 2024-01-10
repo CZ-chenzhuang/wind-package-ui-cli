@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander')
 const package = require('../package.json')
-// const args = process.argv.slice(2)
+const args = process.argv.slice(2)
 // const inquirer = require('inquirer')
 
 // program.command('create <app-name>')
